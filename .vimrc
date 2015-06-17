@@ -14,16 +14,6 @@ set nowrap
 "set wrap
 set textwidth=0
 set wrapmargin=0
-"au Filetype python map <buffer> <C-C> :s/^/#<CR>
-"au Filetype python map <buffer> <C-T> :s/^#<CR>
-au Filetype matlab map <buffer> <C-C> :s/^/%<CR>
-au Filetype matlab map <buffer> <C-X> :s/^%<CR>
-au Filetype tex map <buffer> <C-C> :s/^/%<CR>
-au Filetype tex map <buffer> <C-X> :s/^%<CR>
-au Filetype c,cpp map <buffer> <C-C> :s:^:\/\/<CR>
-au Filetype c,cpp map <buffer> <C-X> :s:^\/\/<CR>
-autocmd BufRead *.pyx,*.pxd,*.py map <buffer> <C-C> :s:^\(\s*\):\1#<CR>
-autocmd BufRead *.pyx,*.pxd,*.py map <buffer> <C-X> :s:^\(\s*\)#:\1<CR>
 
 " For Latex-Suite
 set grepprg=grep\ -nH\ $*
