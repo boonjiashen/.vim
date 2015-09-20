@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+syntax on       " enable syntax highlighting
 set ruler       " enable column number
 set number      " enable line numbers
 "autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
