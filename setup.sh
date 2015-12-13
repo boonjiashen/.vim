@@ -13,3 +13,4 @@ git submodule init
 git submodule update
 
 cp -i .vimrc ~/.vimrc # -i: prompts if you wanna overwrite existing file
+cp -i .tmux_conf ~ # -i: prompts if you wanna overwrite existing file
